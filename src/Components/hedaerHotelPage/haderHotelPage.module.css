@@ -1,0 +1,40 @@
+
+.header {
+    justify-content: space-between;
+}
+
+.name_address {
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.name_address h3 {
+    font-size: var(--sub-title-fonts);
+    font-weight: bold;
+}
+
+.name_address span {
+    gap: 8px;
+    color: #1A1A1A;
+}
+
+
+.name_address span span {
+
+    color: var(--color-blue);
+}
+
+.btnHandler{
+    height: 50%;
+    
+    gap: 16px;
+}
+.btnHandler span{
+    font-size: 24px;
+    color: var(--color-blue);
+}
+.like{
+    display: flex;
+    align-items: center;
+}

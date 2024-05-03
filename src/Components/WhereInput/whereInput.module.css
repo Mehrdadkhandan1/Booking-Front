@@ -1,0 +1,16 @@
+.listCity {
+    color: #000;
+}
+
+.listCity li {
+    gap: 4px;
+    padding: var(--n-padding-3x) var(--n-padding-4x) ;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.listCity li:not(:last-child){
+    border-bottom: 1px solid #F3F3F3;
+}
+.listCity li:hover{
+    background-color: #F3F3F3;
+}

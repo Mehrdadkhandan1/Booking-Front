@@ -1,0 +1,44 @@
+.cardHotel {
+    display: grid;
+    margin-top: 8px;
+    border: 1px solid #e7e7e7;
+    padding: var(--n-padding-3x);
+    border-radius: 8px;
+    gap: 1rem;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.cardHotel img {
+    border-radius: 8px;
+}
+
+.infoHotel {
+    flex-direction: column;
+    gap: 1rem;
+    color: var(--color-blue);
+}
+.infoHotel p {
+    font-size: var(--n-font);
+    color: #000;
+}
+.infoHotel h3 {
+    font-size: var(--sub-title-fonts);
+}
+
+.scoreAndBtn {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.scoreAndBtn span:last-child {
+    width: 30px;
+    margin-left: 4px;
+    background-color: var(--bg-color-blue);
+    padding: var(--n-padding) var(--n-padding-2x);
+    color: #fff;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-radius: 4px 4px 4px 0;
+}

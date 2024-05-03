@@ -1,0 +1,197 @@
+/* font */
+@font-face {
+    font-family: 'Blu Sans';
+    src: url('Fonts/BluSans-Light.eot');
+    src: local('Blu Sans Light'), local('BluSans-Light'),
+        url('Fonts/BluSans-Light.eot') format('embedded-opentype'),
+        url('Fonts/BluSans-Light.woff2') format('woff2'),
+        url('Fonts/BluSans-Light.woff') format('woff'),
+        url('Fonts/BluSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Blu Sans';
+    src: url('Fonts/BluSans-Medium.eot');
+    src: local('Blu Sans Medium'), local('BluSans-Medium'),
+        url('Fonts/BluSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Fonts/BluSans-Medium.woff2') format('woff2'),
+        url('Fonts/BluSans-Medium.woff') format('woff'),
+        url('Fonts/BluSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Blu Sans';
+    src: url('Fonts/BluSans-Bold.eot');
+    src: local('Blu Sans Bold'), local('BluSans-Bold'),
+        url('Fonts/BluSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Fonts/BluSans-Bold.woff2') format('woff2'),
+        url('Fonts/BluSans-Bold.woff') format('woff'),
+        url('Fonts/BluSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Blu Sans';
+    src: url('Fonts/BluSans-Black.eot');
+    src: local('Blu Sans Black'), local('BluSans-Black'),
+        url('Fonts/BluSans-Black.eot?#iefix') format('embedded-opentype'),
+        url('Fonts/BluSans-Black.woff2') format('woff2'),
+        url('Fonts/BluSans-Black.woff') format('woff'),
+        url('Fonts/BluSans-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Blu Sans';
+    src: url('Fonts/BluSans-Regular.eot');
+    src: local('Blu Sans Regular'), local('BluSans-Regular'),
+        url('Fonts/BluSans-Regular.eot') format('embedded-opentype'),
+        url('Fonts/BluSans-Regular.woff2') format('woff2'),
+        url('Fonts/BluSans-Regular.woff') format('woff'),
+        url('Fonts/BluSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+
+
+
+
+
+/* variables */
+
+:root {
+    --bg-a-link: #fff;
+    --color-blue: #006ce4;
+    --bg-color-blue: #003b95;
+    --max-width: 1100px;
+    /* padding */
+    --n-padding: 4px;
+    --n-padding-2x: 8px;
+    --n-padding-3x: 12px;
+    --n-padding-4x: 16px;
+    --n-padding-5x: 20px;
+
+    /* fonts */
+
+    --title-fonts: 48px;
+    --sub-title-fonts: 24px;
+    --medium-font : 20px;
+    --n-font: 14px;
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Blu Sans';
+
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+/* tags  */
+
+a {
+    text-decoration: none;
+
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    border: 0;
+    outline: 0;
+}
+
+/* custom class */
+.d-flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-content {
+    justify-content: center;
+}
+
+.f-center {
+    justify-content: center;
+    align-items: center;
+}
+
+
+.parent-inputs-search{
+    width: 33.333333%;
+}
+.input-search {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: var(--n-padding) calc(var(--n-padding)*6);
+    color: #1a1a1a;
+    min-height: 52px;
+    border-radius: 4px;
+
+}
+
+.input-search input {
+    border: 0;
+    flex-grow: 2;
+    padding: var(--n-padding) calc(var(--n-padding-2x));
+    height: 100%;
+    min-height: 36px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.input-search input:focus {
+    outline: 0;
+    border: 0;
+}
+
+.input-search input::placeholder {
+    font-weight: 500;
+    font-size: 14px;
+
+    color: #000;
+}
+
+.input-search span {
+    display: flex;
+    font-size: 24px;
+    color: #595959 !important;
+}
+
+.btn-link{
+    background-color: var(--color-blue);
+    color: #fff;
+    padding: var(--n-padding-2x) var(--n-padding-4x);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}

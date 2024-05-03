@@ -1,0 +1,16 @@
+.headerTitle {
+    max-width: var(--max-width);
+    margin: 0  auto;
+    padding: calc(var(--n-padding-5x) *4) 0;
+    background-color: var(--bg-color-blue);
+    color: #fff;
+    word-spacing: 4px;
+}
+.headerTitle h1{
+    font-size: var(--title-fonts);
+    
+}
+.headerTitle p {
+    font-size: var(--sub-title-fonts);
+    font-weight: 400;
+}

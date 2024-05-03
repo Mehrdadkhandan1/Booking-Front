@@ -1,0 +1,34 @@
+.navbar{
+    max-width: var(--max-width);
+    margin: 0 auto;
+    font-weight: 400;
+}
+.navbar .navList{
+    gap: 1rem;
+    font-size: 1.25rem;
+    color: #fff;
+}
+.navbar .navList svg{
+    font-size: 1.2rem;
+    height: 100%;
+    color: #fff;
+}
+.navbar .navList li{
+    padding: var(--n-padding-3x);
+    font-weight: 200;
+    border-radius: 50px;
+    gap: 8px;
+}
+.navbar .navList li:hover{
+    background-color: #1A4FA0;
+    
+}
+.activeItem{
+    border: 1px solid #fff;
+    background-color: #1A4FA0;
+}
+.navbar .navList li a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+
+}
+

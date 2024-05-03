@@ -1,0 +1,11 @@
+.doneBtn{
+    width: 100%;
+    background-color: #fff;
+    color: var(--color-blue);
+    padding: var(--n-padding-4x);
+    border: 1px solid var(--color-blue);   
+}
+.parentDone{
+    padding: var(--n-padding-4x);
+
+}

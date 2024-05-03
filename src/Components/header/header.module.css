@@ -1,0 +1,6 @@
+.header{
+    width: 100%;
+    background-color: var(--bg-color-blue);
+    color: #fff;
+    position: relative;
+}
